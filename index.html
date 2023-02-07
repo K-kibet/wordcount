@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordcount</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/perfecttense-editor@latest/dist/pte.umd.js">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Word Counter</h1>
+        <p class="subtitle">
+            Count live Characters, Words, Sentences, Paragraphs by using this cool website
+         </p>
+        <div class="top">
+            <span class="name">THE DESTINY</span>
+            <span id="time">60</span>
+        </div>
+        <textarea name="" id="TextArea" rows="10" placeholder="Start typing here...">
+            
+        </textarea>
+
+        <div class="count">
+            <div class="box">
+                <h5 id="words">0</h5>
+                <p>Words</p>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        PerfectTenseEditor({ clientId: "63de88a8ffac1b553ecabfe2" });
+    </script>
+</body>
+</html>
